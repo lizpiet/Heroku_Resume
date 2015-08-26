@@ -1,18 +1,17 @@
-var http = require("http");
+//var http = require("http");
+var express = require("express");
+var app = express();
+var path = require('path');
 
-http.createServer(function(req, res){
-    res.writeHead(200);
-    res.write("Hello!");
-    res.end();
-}).listen(process.env.PORT || 3000);
+app.use(express.static(path.join(__dirname, './public')));
 
-
-console.log("Hello!");
-
-
-
+var server = app.listen(process.env.PORT || 3000, function(){
+    var port = server.address().port;
+    console.log('Listening on port: ', port);
+});
 
 
+//console.log("Hello!");
 
 
 //curl 127.0.0.1:3000
