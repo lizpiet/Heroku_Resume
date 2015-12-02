@@ -113,6 +113,10 @@ a:hover {
     background: linear-gradient( to bottom, #067F93, #010327);
 }
 
+.highlights{
+    color:#067F93;
+}
+
 .main-skill{
     font-size: 1em;
     font-weight: bold;
