@@ -87,6 +87,12 @@ section ul {
     font-weight: lighter;
     margin: 3px 0 15px;
 }
+p {
+    font-family: tahoma;
+    font-size: 1.15em;
+    color: #4b4343;
+    font-weight: lighter;
+}
 
 
 .stripe {
