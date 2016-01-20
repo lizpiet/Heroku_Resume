@@ -88,6 +88,11 @@ section ul {
     font-weight: lighter;
     margin: 3px 0 15px;
 }
+
+.secondary-bullet {
+    font-size: 1em;
+}
+
 p {
     font-family: tahoma;
     font-size: 1.15em;
